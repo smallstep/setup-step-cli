@@ -24,7 +24,7 @@ jobs:
           echo "The new version was detected as ${semver} and the new major version was detected as ${majver}"
 
       - name: Get Current Version
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         id: cv
         with:
           script: |
